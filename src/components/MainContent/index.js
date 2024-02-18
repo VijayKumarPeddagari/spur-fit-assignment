@@ -32,7 +32,7 @@ const MainContent = () => (
         <div className="ahead-title-content">
           <p className="ahead-app-text">Ahead app </p>
           <h1 className="ahead-title">
-            {" "}
+            
             Master your life by mastering emotions{" "}
           </h1>
           <div className="app-store-rating-container">
