@@ -30,7 +30,7 @@ const MainContent = () => (
     <div className="ahead-app-container">
       <div className="master-heading-container">
         <div className="ahead-title-content">
-          <p className="ahead-app-text"> Ahead app </p>
+          <p className="ahead-app-text">Ahead app </p>
           <h1 className="ahead-title">
             {" "}
             Master your life by mastering emotions{" "}
