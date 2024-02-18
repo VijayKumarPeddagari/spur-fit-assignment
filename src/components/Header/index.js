@@ -8,7 +8,7 @@ const Header = () => (
         <h1 className="Ahead-logo"> Ahead Logo </h1>
         <ul className="navbar-texts">
           <li className="nav-link">Emotions </li>
-          <li className="nav-link"> Manifesto </li>
+          <li className="nav-link">Manifesto </li>
           <li className="nav-link"> Self-awareness test </li>
           <li className="nav-link"> Work With Us </li>
         
