@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px black solid;
+    margin-bottom: 0px;
+  }
+  .navbar-container {
+    display: flex;
+    width: 90%;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
+  .Ahead-logo {
+    font-size: 13px;
+  }
+  .nav-search{
+    border-radius: 25px;
+    background-color: rgb(221, 229, 237);
+    height: 30px;
+    border-width: 0px;
+    text-align: center;
+    
+  }
+  
+  .nav-link {
+    color: #282727;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 25px;
+  }
+  
+  .navbar-texts {
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+  }
+  
+  .download-Button {
+    background-color: #282727;
+    color: #ffffff;
+    font-size: 13px;
+    height: 42px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+  }
+  
+  .heading {
+    color: red;
+  }
+  
