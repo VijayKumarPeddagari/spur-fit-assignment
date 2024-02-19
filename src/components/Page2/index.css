@@ -1,44 +1,20 @@
 .page2-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @apply min-h-screen flex flex-col justify-between;
   }
-  
   .eq-beats-iq-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 90px;
+    @apply flex justify-between p-[90px];
+    align-items: flex-start;
   }
-  
   .eq-beats-iq-title {
-    font-size: 30px;
-    font-weight: 600;
-    color: #000000;
+    @apply text-3xl font-semibold text-black;
   }
-  
   .eq-beats-iq-desciptions {
-    width: 30%;
-    color: #000000;
-    font-size: 18px;
-    line-height: 30px;
+    @apply w-[30%] text-black text-lg leading-[30px];
   }
-  
   .does-this-sound-text {
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 30px;
-    padding-left: 90px;
-    padding-right: 590px;
+    @apply text-[40px] text-black mb-[30px] pl-[90px] pr-[590px];
   }
-  
   .emotions-list {
-    list-style-type: none;
-    padding-left: 0px;
-    display: flex;
-    overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    @apply list-none flex overflow-hidden pl-0 py-5;
   }
   

@@ -1,20 +1,12 @@
+
 .vacancies-container {
-    margin: 40px;
-    border-radius: 30px;
-    padding: 50px;
+    @apply m-10 p-[50px] rounded-[30px];
   }
-  
   .vacancies-title {
-    font-size: 47px;
-    color: #000000;
+    @apply text-[47px] text-black;
     font-family: "Roboto";
   }
-  
   .vacancies-list {
-    list-style-type: none;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    @apply list-none flex justify-between flex-wrap p-0;
   }
   

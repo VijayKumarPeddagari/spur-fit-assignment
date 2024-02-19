@@ -1,20 +1,11 @@
+
 .work-with-us-right-card-item {
-    background-color: #ffffff;
-    border-radius: 15px;
-    padding: 30px;
-    margin-bottom: 20px;
-    margin-right: 30px;
+    @apply bg-white mr-[30px] mb-5 p-[30px] rounded-[15px];
   }
-  
   .work-with-us-right-card-item-title {
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
+    @apply text-base font-medium text-black;
   }
-  
   .work-with-us-right-card-item-description {
-    font-size: 14px;
-    color: #605e5e;
-    line-height: 26px;
+    @apply text-sm text-[#605e5e] leading-[26px];
   }
   

@@ -1,107 +1,52 @@
 .rating-skills-container {
-    background-color: #edf9fe;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    border-radius: 30px;
-    padding: 50px;
-    height: 100vh;
+    @apply bg-[#edf9fe] flex flex-col items-center h-screen m-[50px] p-[50px] rounded-[30px];
   }
-  
   .rating-skills-white-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    border-radius: 10px;
-    height: 200px;
-    padding: 30px;
+    @apply flex items-center justify-center bg-white h-[200px] p-[30px] rounded-[10px];
   }
-  
   .anonymonos-timeline {
-    display: flex;
+    @apply flex;
   }
-  
   .rating-skills-timeline-containers {
-    padding: 30px;
-    position: relative;
-    flex-shrink: 0;
+    @apply relative shrink-0 p-[30px] after:absolute after:content-["_"] after:w-full after:h-0.5 after:bg-[rgb(224,220,220)];
   }
-  
   .rating-skills-timeline-container-last {
-    padding: 30px;
-    position: relative;
-    flex-shrink: 0;
+    @apply relative shrink-0 p-[30px];
   }
-  
   .rating-skills-timeline-items {
-    background-color: red;
-    border-radius: 10px;
-    padding: 10px 20px;
-    color: #ffffff;
-    position: relative;
+    @apply bg-[red] text-white relative px-5 py-2.5 rounded-[10px];
   }
-  
   .rating-time-line-dot {
-    position: absolute;
-    top: 63px;
-    z-index: 10;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: black;
+    @apply absolute z-10 w-[15px] h-[15px] bg-[black] rounded-[50%] top-[63px];
   }
-  
   .rating-skills-timeline-items p {
-    margin: 0px;
-    font-size: 16px;
+    @apply text-base m-0;
   }
-  
   .you-box {
-    top: -20px;
-    left: -70%;
-    background-color: #661ff2;
+    @apply left-[-70%] bg-[#661ff2] -top-5;
   }
-  
   .you-dot {
-    background-color: #661ff2;
+    @apply bg-[#661ff2];
   }
-  
   .anonymous2 {
-    top: -20px;
-    background-color: #fc9c20d8;
+    @apply bg-[#fc9c20d8] -top-5;
   }
-  
   .two-dot {
-    background-color: #fc9c20d8;
+    @apply bg-[#fc9c20d8];
   }
-  
   .anonymous-bottom {
-    top: 60px;
+    @apply top-[60px];
   }
-  
   .anonymous1 {
-    background-color: #46c7fa;
+    @apply bg-[#46c7fa];
   }
-  
   .one-dot {
-    background-color: #46c7fa;
+    @apply bg-[#46c7fa];
   }
-  
   .anonymous3 {
-    background-color: #3acf82;
+    @apply bg-[#3acf82];
   }
-  
   .three-dot {
-    background-color: #3acf82;
-  }
-  
-  .rating-skills-timeline-containers::after {
-    position: absolute;
-    content: " ";
-    width: 100%;
-    height: 2px;
-    background-color: rgb(224, 220, 220);
+    @apply bg-[#3acf82];
   }
   

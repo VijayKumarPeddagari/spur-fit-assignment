@@ -1,90 +1,41 @@
+
 .self-improvement-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    margin: 100px;
+    @apply flex flex-col items-center min-h-screen m-[100px];
   }
-  
   .self-improvement-header {
-    align-self: flex-start;
+    @apply self-start;
   }
-  
   .self-improvement-top-title {
-    font-size: 18px;
-    color: #000000;
+    @apply text-lg text-black;
   }
-  
   .self-improvement-title {
-    font-size: 45px;
-    color: #000000;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    @apply text-[45px] text-black my-0;
   }
-  
   .self-improvement-timeline {
-    width: 80%;
-    padding: 10px;
+    @apply w-4/5 p-2.5;
   }
-  
   .timeline-container {
-    position: relative;
-    padding: 20px;
-    max-width: 500px;
+    @apply relative max-w-[500px] p-5 after:content-[""] after:absolute after:w-[3px] after:h-full after:bg-[#9182f7] after:z-[-1] after:left-[26px] after:top-[45px];
   }
-  
   .time-line-dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    position: absolute;
-    top: 42px;
-    background-color: #9182f7;
+    @apply w-[15px] h-[15px] absolute bg-[#9182f7] rounded-[50%] top-[42px];
   }
-  
   .timeline-title {
-    font-size: 20px;
-    font-weight: 600;
-    color: #000000;
+    @apply text-xl font-semibold text-black;
   }
-  
   .timeline-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #000000;
+    @apply text-base font-normal leading-7 text-black;
   }
-  
   .timeline-details {
-    position: relative;
-    left: 30px;
+    @apply relative left-[30px];
   }
-  
-  .timeline-container::after {
-    content: "";
-    position: absolute;
-    width: 3px;
-    top: 45px;
-    left: 26px;
-    height: 100%;
-    background-color: #9182f7;
-    z-index: -1;
-  }
-  
   .be-the-best-container {
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @apply h-screen flex justify-between items-center;
   }
-  
   .be-the-best-container h3 {
-    font-size: 30px;
+    @apply text-3xl;
   }
-  
   .be-the-best-container p {
-    width: 30%;
-    line-height: 30px;
-    font-size: 18px;
+    @apply w-[30%] leading-[30px] text-lg;
   }
   

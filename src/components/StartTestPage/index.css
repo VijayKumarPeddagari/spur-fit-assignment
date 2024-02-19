@@ -1,60 +1,27 @@
+
 .start-test-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 40px;
-    height: 100vh;
+    @apply flex flex-col items-center justify-center h-screen m-10;
   }
-  
   .start-test-text1 {
-    margin: 0px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #000000;
+    @apply text-lg font-normal text-black m-0;
   }
-  
   .start-test-text2 {
-    font-size: 35px;
-    color: #000000;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    @apply text-[35px] text-black mt-2.5 mb-0;
   }
-  
   .start-test-text3 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #605959;
-    max-width: 600px;
-    text-align: center;
-    line-height: 33px;
-    margin-bottom: 0px;
+    @apply text-xl font-normal text-[#605959] max-w-[600px] text-center leading-[33px] mb-0;
   }
-  
   .with-love-text {
-    font-size: 18px;
-    color: #000000;
+    @apply text-lg text-black;
   }
-  
   .with-love-sign {
+    @apply text-2xl text-black;
     font-family: "Caveat";
-    font-size: 24px;
-    color: #000000;
   }
-  
   .start-test-btn {
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
+    @apply bg-black text-white text-[15px] cursor-pointer mt-5 px-5 py-2.5 rounded-[20px] border-[none];
   }
-  
   .test-duration {
-    font-size: 14px;
-    color: #605959;
+    @apply text-sm text-[#605959];
   }
   

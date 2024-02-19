@@ -9,9 +9,11 @@ import StartTestPage from "../StartTestPage";
 import Footer from "../Footer";
 
 import "./index.css";
+import TopBody from "../TopBody";
 
 const AppBody = () => (
   <div className="app-body">
+    <TopBody/>
     <HomePage />
     <Page2 />
     <MeetAhead />

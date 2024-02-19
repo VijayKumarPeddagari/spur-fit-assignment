@@ -1,5 +1,4 @@
-import { useRef, useEffect } from "react";
-import { gsap } from "gsap";
+import { useRef } from "react";
 
 import WorkWithUsRightCardItem from "../WorkWithUsRightCardItem";
 

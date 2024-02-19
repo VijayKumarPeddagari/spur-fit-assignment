@@ -1,24 +1,14 @@
+
 .vacancy-item {
-    background-color: #ffffe8;
-    border-radius: 15px;
-    padding: 30px;
-    width: 25%;
+    @apply bg-[#ffffe8] w-3/12 p-[30px] rounded-[15px];
   }
-  
   .role {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 10px;
+    @apply text-xl font-medium mt-2.5;
   }
-  
   .vacancy-details {
-    list-style-type: disc;
-    padding-left: 15px;
+    @apply list-disc pl-[15px];
   }
-  
   .vacancy-details li {
-    margin-bottom: 15px;
-    font-size: 14px;
-    font-weight: 400;
+    @apply text-sm font-normal mb-[15px];
   }
   

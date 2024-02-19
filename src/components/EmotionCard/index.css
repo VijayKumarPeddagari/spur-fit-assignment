@@ -1,38 +1,23 @@
+
 .emotion-card {
-    padding: 20px;
-    border-radius: 20px;
-    margin-right: 30px;
-    width: 280px;
-    flex-shrink: 0;
+    @apply w-[280px] shrink-0 mr-[30px] p-5 rounded-[20px];
   }
-  
   .hilighted-emotion-card {
-    transform: rotate(-5deg);
+    @apply rotate-[-5deg];
   }
-  
   .emotion-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    @apply w-[50px] h-[50px] rounded-[50%];
   }
-  
   .emotion-title {
-    font-weight: 600;
-    color: #000000;
-    font-size: 16px;
+    @apply font-semibold text-black text-base;
   }
-  
   .emotion-description {
-    font-size: 14px;
-    color: #5e5b5b;
-    line-height: 22px;
+    @apply text-sm text-[#5e5b5b] leading-[22px];
   }
-  
   .hilighted-emotion-description {
-    color: #ffffff;
+    @apply text-white;
   }
-  
   .hilighted-emotion-title {
-    color: #ffffff;
+    @apply text-white;
   }
   
