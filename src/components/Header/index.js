@@ -1,25 +1,38 @@
 import "./index.css";
-// import MainContent from "../MainContent";
 
 const Header = () => (
-  <>
-    <nav className="navbar">
-      <div className="navbar-container">
-        <h1 className="Ahead-logo"> Ahead Logo </h1>
-        <ul className="navbar-texts">
-          <li className="nav-link">Emotions </li>
-          <li className="nav-link">Manifesto </li>
-          <li className="nav-link"> Self-awareness test </li>
-          <li className="nav-link"> Work With Us </li>
-        
-        </ul>
-        <input className="nav-search" type="search" placeholder="Search">
-
-        </input>
-        <button className="download-Button"> Download app </button>
-      </div>
-    </nav>
-  </>
+  <nav className="nav-container">
+    <div className="header-container">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUHHhmODkp6LXZiHf1FRJNpV3ukrlxjHgNMQTNQ46WNCTL5RV0ACYYWt_HrbfX08YLms&usqp=CAU"
+        alt="website logo"
+        className="website-logo"
+      />
+      <ul className="nav-items">
+        <li className='nav-list-item'>
+          <a href="#" className="nav-items">
+            Emotions
+          </a>
+        </li>
+        <li className='nav-list-item'>
+          <a href="#" className="nav-items">
+            Manifesto
+          </a>
+        </li>
+        <li className='nav-list-item'>
+          <a href="#" className="nav-items">
+            Self-awareness test
+          </a>
+        </li>
+        <li className='nav-list-item'>
+          <a href="#" className="nav-items">
+            Work With Us
+          </a>
+        </li>
+      </ul>
+      <button className="download-app-btn">Download App</button>
+    </div>
+  </nav>
 );
 
 export default Header;
