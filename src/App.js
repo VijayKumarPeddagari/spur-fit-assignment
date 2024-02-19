@@ -1,13 +1,13 @@
-// import logo from "./logo.svg";
-import "./App.css";
 import Header from "./components/Header";
-import MainContent from "./components/MainContent";
+import AppBody from "./components/AppBody";
 
-const App = () => (
+import "./App.css";
+
+const AheadApp = () => (
   <>
-    <Header />;
-    <MainContent />
+    <Header />
+    <AppBody />
   </>
 );
 
-export default App;
+export default AheadApp;
